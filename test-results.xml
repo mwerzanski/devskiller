@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="11" failures="0" errors="0" time="4.46">
+  <testsuite name="src/test/NoteForm.spec.jsx" errors="0" failures="0" skipped="0" timestamp="2023-12-03T05:03:28" time="2.449" tests="3">
+    <testcase classname="NoteForm Component" name="should display title and note form input fields after note is selected" time="0.05">
+    </testcase>
+    <testcase classname="NoteForm Component" name="should call onChange with changed form values" time="0.045">
+    </testcase>
+    <testcase classname="NoteForm Component" name="should call onSubmit with changed note after the form is submitted" time="0.009">
+    </testcase>
+  </testsuite>
+  <testsuite name="src/test/NotesList.spec.jsx" errors="0" failures="0" skipped="0" timestamp="2023-12-03T05:03:28" time="2.499" tests="3">
+    <testcase classname="NotesList Component" name="should show list of notes" time="0.153">
+    </testcase>
+    <testcase classname="NotesList Component" name="should call onSelect function after note was clicked" time="0.019">
+    </testcase>
+    <testcase classname="NotesList Component" name="should add `active` class to a note after it was selected" time="0.007">
+    </testcase>
+  </testsuite>
+  <testsuite name="src/test/App.spec.jsx" errors="0" failures="0" skipped="0" timestamp="2023-12-03T05:03:28" time="2.791" tests="5">
+    <testcase classname="App Component" name="should call notesService.getNotes() when rendered" time="0.193">
+    </testcase>
+    <testcase classname="App Component" name="should call notesService.saveNote() method after the form is submitted" time="0.053">
+    </testcase>
+    <testcase classname="App Component" name="should fetch notes from notesService and update notes list after the form is submitted" time="0.041">
+    </testcase>
+    <testcase classname="App Component" name="should add a new note to the list after the note is saved" time="0.036">
+    </testcase>
+    <testcase classname="App Component" name="when existing note is saved it should be updated on list" time="0.024">
+    </testcase>
+  </testsuite>
+</testsuites>
